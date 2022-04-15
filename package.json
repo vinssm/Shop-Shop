@@ -1,7 +1,7 @@
 {
   "name": "mern-shopping",
   "version": "1.0.0",
-  "description": "",
+  "description": "- MERN APP Shop-Shop.",
   "main": "server/server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -19,5 +19,13 @@
   },
   "dependencies": {
     "if-env": "^1.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinssm/Shop-Shop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinssm/Shop-Shop/issues"
+  },
+  "homepage": "https://github.com/vinssm/Shop-Shop#readme"
 }
